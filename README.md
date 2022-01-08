@@ -18,6 +18,8 @@ The way that the data was analyzed to determine outcomes based on start date was
 
 ##### Graph
 
+The graph was created by using the data in the created pivot table. The graph was then copied and pasted into the microsoft paint application. The picture was then saved as 'Theater_Outcomes_vs_Launch.png before being uploaded to GitHub with the rest of the files. 
+
 #### Challenge
 
 The challenges that I ran into with creating this analysis were mostly adjusting to the novelty of new systems for myself. I had trouble with finding how to first change the row value to months. This was eventually found to be changed through group selection button on the top of the screen with the help of a hint within the instructions of the deliverable. I also had to go back through the work to determine why my data columns were not organized in the same way as the expected result. It took some fiddling with the filter prompt at the top of the column to figure that out. The last challenge of note for this deliverable was determining that the scaling of the graph for size needed to be done within the excel sheet. If the scale was changed in after converting to the paint application then the image became grainy.
