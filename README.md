@@ -38,12 +38,22 @@ The graph was created by taking the values found in columns F through Column G i
 
 The challenges that I ran into with creating this analysis were mostly adjusting to the novelty of new systems for myself. I had trouble with finding how to first change the row value to months. This was eventually found to be changed through group selection button on the top of the screen with the help of a hint within the instructions of the deliverable. I also had to go back through the work to determine why my data columns were not organized in the same way as the expected result. It took some fiddling with the filter prompt at the top of the column to figure that out. The last challenge of note for this deliverable was determining that the scaling of the graph for size needed to be done within the excel sheet. If the scale was changed in after converting to the paint application then the image became grainy.
 
+#### Challenges of Outcomes Based on Goals
+
+The challenges I ran into with this creating this analysis was in determining the correct criteria for the countifs formulas. I went back and forth on whether the upper criteria range should be `,<5000 or ,<=4999`. Upon looking at the data I realized that either option was acceptable as there were no decimal numbers that were used. The other issue was finding the final criteria of the formula and its variants `=COUNTIFS(Kickstarter!$F:$F, "failed",Kickstarter!$D:$D,">=1000",Kickstarter!$D:$D,"<5000",Kickstarter!$R:$R,"plays")`. The criteria that was missing was the subcategory 'plays' which took some deliberation to figure out.
+
 ## Results
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
 
+The conclusions that could be determined were that the kickstarter campaigns were the historical best and worst times of the year for starting in May and October respectively. There is also of note the the conclusion that the graph follows a similar trend among all three lines. The upticks and downticks in the successful and failed lines at similar points that other kickstarter campaigns tend to follow a similar yearly pattern in start months. The three main times that theater kickstarter campaigns begin is in February, May, and October.
+
 - What can you conclude about the Outcomes based on Goals?
 
+The outcomes based on goals were that the best range to shoot for as your goal is somewhere in the range of 1000 to 4999 units of currency as multiple countries are express within this analysis.
+
 - What are some limitations of this dataset?
+
+Some limitations of note are that in the Outcomes based on Goals deliverable. As the monetary value goes up, there is a massive decrease in population which means that the percentages become less helpful in determining whether the goal is actually likely succeed or fail. Another limitation is that the data for plays in compared across all countries of this data set. It means that value of the currency is not accounted for in this analysis. It would also be worth mentioning that this across a 9 years of data. Inflation should be accounted for when evaluating earlier years versus more current years.
 
 - What are some other possible tables and/or graphs that we could create?
