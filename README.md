@@ -33,3 +33,11 @@ The challenges that I ran into with creating this analysis were mostly adjusting
 ##### Data
 
 The data was analyzed to determine outcomes based on goals by creating a new worksheet called 'Outcomes Based on Goals'. A chart was created with rows that depict groupings of values. These values start at 'Less than 1000' and then increase in intervals of 5000 until the cell 'Greater than 50000'. The Columns contain data that correlates for these values in the column information of 'Number Successful', 'Number Failed'. 'Number Canceled', 'Total Projects', 'Percentage Successful','Percentage Failed', and 'Percentage Canceled'. The values of the cells took the formula `=COUNTIFS(Kickstarter!$F:$F, "successful",Kickstarter!$D:$D,">=1000",Kickstarter!$D:$D,"<5000",Kickstarter!R:R,"plays")` in which three to four criteria and ranges are used to specify the number of outcomes within each specific criteria. Three criteria were used for rows contain 'less than 1000' and 'greater than 50000'. Four criteria was used in rows that are between two incremental boundaries. The first criteria and range specified the term 'succesful', 'failed', or 'canceled' to look at in worksheet 'Kickstarter' Column F. The second and/or the third criteria/range specified the goal limits between less than 1000 currency based increments, 5000 currency based increments, and greater than 50000 currency based increments in column D. As a note the third criteria is applied to The final criteria and range within this formula specifies the subcategory value 'plays' in worksheet 'Kickstarter' Column R. Column E of worksheet 'Outcomes Based on Goals' used the formula and variants of `=sum(B2:D2)` to determine the total number of kickstarter campaigns per goal increment. The final three rows were calculated by running a variation of the formula `=B2/E2` where the value successful, failed, or canceled variable was divided by the total to be given a percentage.
+
+##### Graph
+
+The graph was created by taking the values found in columns F through Column G into a line graph. The graph was then copied and pasted into the microsoft paint application. The picture was then saved as 'Outcomes_vs_goals.png'.
+
+![Launch Date Pivot](https://github.com/drewabramo12/working_with_excel/blob/main/Outcomes_vs_Goals.png)
+
+#### Results
